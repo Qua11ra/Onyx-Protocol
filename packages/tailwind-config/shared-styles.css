@@ -1,6 +1,10 @@
+@import "./styles/fonts.css";
 @import "tailwindcss";
 
 @theme {
+  --font-google-sans: "Google Sans Code", sans-serif;
+  --font-parkin-sans: "Parkin Sans", sans-serif;
+
   --color-blue-1000: #2a8af6;
   --color-purple-1000: #a853ba;
   --color-red-1000: #e92a67;

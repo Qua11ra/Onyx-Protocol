@@ -1,8 +1,14 @@
 {
-  "extends": "@repo/typescript-config/react-library.json",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": ["src"],
-  "exclude": ["dist", "build", "node_modules"]
+	"extends": "../typescript-config/nextjs.json",
+	"compilerOptions": {
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationMap": true,
+		"noEmit": true,
+
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["./*"]
+		}
+	}
 }

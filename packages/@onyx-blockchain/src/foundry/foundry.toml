@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+remappings = ["@openzeppelin/=lib/openzeppelin-contracts/", "@chainlink/=lib/chainlink-brownie-contracts/", "@ccip/=lib/ccip/", "@foundry-devops/=lib/foundry-devops/"]
+
+[fuzz]
+runs = 500
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

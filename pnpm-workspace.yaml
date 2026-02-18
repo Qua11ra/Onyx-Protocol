@@ -1,3 +1,14 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - apps/*
+  - packages/*
+
+ignoredBuiltDependencies:
+  - core-js
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - bufferutil
+  - esbuild
+  - sharp
+  - unrs-resolver
+  - utf-8-validate

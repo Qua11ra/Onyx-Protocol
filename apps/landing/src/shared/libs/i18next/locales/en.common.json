@@ -1,0 +1,96 @@
+{
+	"title": "Onyx Protocol - Rebase Stablecoin Defi Protocol",
+	"description": "Dive into the world of stablecoins. Lock collateral to secure the protocol, use the Onyx stablecoin anywhere, and earn by participating in the protocol.",
+	"keywords": ["Onyx", "Protocol", "Defi", "Stablecoin", "Rebase", "Token", "Health", "Factor", "Liqudation", "Earn"],
+	"link-button": "Launch App",
+	"header": {
+		"navigation": {
+			"start": "Start",
+			"about": "About",
+			"earn": "Earn",
+			"faq": "FAQ",
+			"end": "End"
+		}
+	},
+	"hero": {
+		"description": {
+			"title": "A Stable Token Backed by 200% Collateral.",
+			"mint": "Mint tokens by locking collateral",
+			"use": "Use them like a stablecoin",
+			"earn": "Earn by keeping the system healthy"
+		}
+	},
+	"about-section": {
+		"header": {
+			"title": "What is Onyx Protocol?",
+			"title-2": "A Simple and Transparent Rebase Stablecoin System",
+			"description-1": "This protocol allows anyone to mint tokens by locking collateral worth 200% of the token value.",
+			"description-2": "Every token in circulation is backed by more value than it represents."
+		},
+		"footer": {
+			"1-block": {
+				"title": "No banks.",
+				"description": "Lock collateral worth 200% Mint new tokens instantly Use them anywhere like a stablecoin."
+			},
+			"2-block": {
+				"title": "No hidden risks.",
+				"description": "Each position has a health score. If collateral value drops too low, the position becomes unsafe."
+			},
+			"3-block": {
+				"title": "Just smart contracts and clear rules.",
+				"description": "Designed for Stability"
+			}
+		}
+	},
+    "earn-section": {
+        "title": "How can you earn?",
+        "title-2": "Become a liquidator",
+        "description": {
+            "header": "When positions become unsafe, they can be liquidated.",
+            "main": {
+                "1": "As a liquidator, you:",
+                "2": "Burn your tokens",
+                "3": "Receive collateral at a discount",
+                "4": "Help keep the system stable"
+            },
+            "footer": "The protocol rewards active participants."
+        },
+        "end-description":"Help the System. Earn Rewards."
+    },
+    "faq-section": {
+        "title": "FAQ",
+        "questions": {
+			"about-rebase": "What does { rebase token } mean?",
+			"about-overcollateral": "Why should I lock 200% collateral?",
+			"about-clarity": "Why can I trust Onyx Protocol?"
+		},
+		"answers": {
+			"about-rebase": {
+				"title": "This is a rebase token.",
+				"1": "Your number of tokens may change over time. But your share of the system stays the same.",
+				"2": "You don’t lose your position. You keep your proportional ownership.",
+				"3": "This keeps the system flexible and stable at the same time."
+			},
+			"about-overcollateral": {
+				"title": "Overcollateralized for Safety",
+				"1": "Every token is backed by twice its value in collateral.",
+				"2": "This creates a safety buffer during market volatility.",
+				"3": "The protocol doesn’t rely on trust. It relies on math."
+			},
+			"about-clarity": {
+				"title": "Built for Clarity",
+				"1": "Transparent smart contracts Fully on-chain logic Clear collateral rules No centralized control",
+				"2": "Everything happens automatically. Everything is verifiable."
+			}
+		}
+    },
+	"end-section": {
+		"title": "Take part in a stable and transparent system.",
+		"title-2": "Ready to Try It?",
+		"footer": {
+			"1": "Mint stablecoins",
+			"2": "Monitor positions",
+			"3": "Earn as a liquidator"
+		}
+	}
+}

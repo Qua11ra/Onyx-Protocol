@@ -1,0 +1,45 @@
+{
+	"name": "@onyx/blockchain",
+	"version": "1.0.0",
+	"description": "Blockchain components for Onyx Protocol",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs",
+			"types": "./dist/types.d.ts"
+		},
+		"./hooks": {
+			"import": "./dist/hooks/index.js",
+			"types": "./dist/hooks/index.d.ts"
+		},
+		"./contracts": {
+			"import": "./dist/contracts/index.js",
+			"types": "./dist/contracts/index.d.ts"
+		},
+		"./actions": {
+			"import": "./dist/actions/index.js",
+			"types": "./dist/actions/index.d.ts"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsup"
+	},
+	"dependencies": {
+		"@metamask/sdk-react": "^0.33.1",
+		"@tanstack/react-query": "^5.90.20",
+		"viem": "^2.45.1",
+		"wagmi": "^3.4.2"
+	},
+	"devDependencies": {
+		"@onyx/tailwind-config": "workspace:*",
+		"@onyx/typescript-config": "workspace:*",
+		"@types/node": "^25.2.3",
+		"tsup": "^8.5.1"
+	}
+}
